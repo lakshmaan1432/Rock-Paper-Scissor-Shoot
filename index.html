@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissor Shoot!</h1>
+    <br>
+    <br>
+    <div class="controls">
+        <button onclick="play('Rock')">Rock</button>
+        <button onclick="play('Paper')">Paper</button>
+        <button onclick="play('Scissor')">Scissor</button>
+    </div>
+    <br>
+    <br>
+    <div class="players">
+        <div class="user">
+            <h1>User Move: </h1>
+            <h1 id="user-move"></h1>
+            <img width="100" id="user-move-image" src="" alt="">
+        </div>
+
+        <div class="computer">
+            <h1>Computer's Move:</h1>
+            <h1 id="computer-move"></h1>
+            <img width="100" id="computer-move-image" src="" alt="">
+        </div>
+    </div>
+
+    <p>Created By: Lakshmaan</p>
+
+    <h1 id="result"></h1>
+
+    <div class="restartbox">
+        <button class="restart-button" onclick="restart()">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
